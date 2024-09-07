@@ -25,7 +25,7 @@ module.exports = { session: process.env.SESSION_ID |Byte;;;eyJub2lzZUtleSI6eyJwc
 
 ///////////////////////////
     A_REACT : process.env.AUTO_REACTION || 'on',
-    CHATBOT: process.env.CHAT_BOT || "off",
+    CHATBOT: process.env.CHAT_BOT || "on",
     OWNER_NAME: process.env.OWNER_NAME || "TALKDROVE",
     NUMERO_OWNER : process.env.OWNER_NUMBER || "258868754545",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
